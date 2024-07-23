@@ -21,12 +21,12 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/toolbar"
         android:layout_marginTop="16dp"
-        android:background="@drawable/edit_text_background"
+        android:background="@drawable/button_background"
         android:hint="Adicionar item"
         android:padding="12dp"
         android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textColorLink="#222222" />
+        android:textColor="@color/white"
+        android:textColorLink="#FFFFFF" />
 
     <Button
         android:id="@+id/buttonAdd"
@@ -36,7 +36,7 @@
         android:layout_marginTop="8dp"
         android:background="@color/light_green"
         android:backgroundTint="#7CB342"
-        android:text="Add Item"
+        android:text="Adicionar item"
         android:textColor="@color/black"
         android:textColorLink="#43A047" />
 
@@ -46,12 +46,12 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/buttonAdd"
         android:layout_marginTop="16dp"
-        android:background="@drawable/edit_text_background"
+        android:background="@drawable/button_background"
         android:hint="Buscar item"
         android:padding="12dp"
         android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textColorLink="#000000" />
+        android:textColor="@color/white"
+        android:textColorLink="#FFFFFF" />
 
     <ScrollView
         android:layout_width="match_parent"
